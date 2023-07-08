@@ -142,4 +142,64 @@ body{
         font-size: 30px;
         font-weight: 700;
     }
+    .resume-containar{
+        display:flex
+    }
+.resume-itme-instritute,{
+    color: #757575;
+
+}
+.resume-itme-title{
+    color: #747474;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+.resume-colum hr{
+    margin: 30px ;
+    display: flex;
+   
+
+}
+.taa{
+    display: flex;
+}
+.resume-itme-description{
+    color: #757575;
+}
+.resume-containar{
+    margin: 30px;
+}
+.resume-itme-instritute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.download-cv{
+    margin-top: 50px;
+
+}
+.footer{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+.footer-columr{
+    width: 50%;
+}
+.contact input,textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color:#f3bf8e;
+    border: 0;
+    width: 100%;
+}
+.social-links a{
+    margin-right: 25px;
+}
 
