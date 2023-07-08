@@ -46,13 +46,59 @@ body{
     /* header style */
     .header{
         background-color: #FFF8F3;
+        background-image: url("../images/header_bg.png");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+       
+      
+        
+
     }
     .banner{
-        padding: 30px 30px 30px 150px;
+        padding: 30px 30px 0px 150px;
         display: flex;
         align-items: center;
-    }
-    .banner .profile-pic{
-        width: 500px;
-    }
+        justify-content: space-between
         
+        
+      }
+    .b-c{
+        max-width: 500px;
+    }
+
+    .salam{
+        font-size: 45px;
+        color: #474747;
+        margin-bottom: 0;
+    }
+    .banner-titel{
+        font-size: 85px;
+        font-weight: 700;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .dis{
+        margin-top: 5px;
+        font-size: 30px;
+    }
+    /* main section style */
+    
+    /* main section style */
+    .about{
+        padding: 130px;
+        background-color: #FFF8F3;
+        border-radius: 10px;
+        margin: 130px;
+    }
+    .section-title{
+        color: #181818;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .section-description{
+        color: #757575;
+        text-align: center;
+        font-size: 18px;
+
+    }
